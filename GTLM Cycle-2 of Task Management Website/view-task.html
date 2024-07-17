@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Task</title>
+    <link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/fonts.css">
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+
+	<div class="header-bc">
+		<div class="wrapper">
+			<div class="header">
+				<div class="head-left">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="head-right">
+					<ul>
+						<li><a href="about.html"><img src="images/info-icon.png"> About</a></li>
+						<li><a href="contact-us.html"><img src="images/contact-icon.png"> Contact Us</a></li>
+						<li><a href="profile.html"><img src="images/user-icon.png"> Profile</a>
+							<ul>
+								<li><a href="notification.html">Notification</a></li>
+								<li><a href="profile-password.html">Password</a></li>
+								<li><a href="login.html">Logout</a></li>
+							</ul>
+						</li>
+						<li><a class="btn" href="create-task.html">Create Task</a></li>
+						<li><a class="btn btn-white" href="view-task.html">View Task</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-small">
+		<div class="container wd100">
+			<h2>View Task</h2>
+			<div class="v-task-table">
+				<div class="v-task-table-head">
+					<div class="table-block">
+						<div class="table-alltask">All Task</div>
+						<div class="sorting">
+							<div class="sort-area" onclick="myFunction()">Sort <img src="images/sort-icon.png"></div>
+							<div id="sortpopup" class="sorting-menu">
+								<ul>
+									<li>Low to High Priority</li>
+									<li>High to Low Priority</li>
+									<li>Ascending Order</li>
+									<li>Descending Order</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="v-task-table-body">
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority low">Low</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority high">High</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority low">Low</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority medium">Medium</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority medium">Medium</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+					<div class="table-block">
+						<div class="table-name">Lorem Ipsum is dummy Text Task Name
+						<span class="name-time">by abc Name. 10 hour ago</span>
+						</div>
+						<div class="table-priority low">Low</div>
+						<div class="table-button"><span><a class="l-btn" href="view.html">View</a> <a class="l-btn" href="edit.html">Edit</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer-bc wd100">
+		<div class="wrapper">
+			<div class="footer wd100">
+				<p>Copyright ©  2023 TM. All rights reserved. Terms & Condition  |  Privacy Policy</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

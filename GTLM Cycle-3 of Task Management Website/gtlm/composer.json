@@ -1,0 +1,11 @@
+{
+    "name": "admin/gtlm",
+    "description": "email",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "vlucas/phpdotenv": "5.5.x-dev"
+    }
+}

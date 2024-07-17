@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/fonts.css">
+
+	<script src="js/script.js"></script>
+	
+
+</head>
+
+<body>
+
+	<div class="header-bc">
+		<div class="wrapper">
+			<div class="header">
+				<div class="head-left">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="head-right">
+					<ul>
+						<li><a href="about.html"><img src="images/info-icon.png"> About</a></li>
+						<li><a href="contact-us.html"><img src="images/contact-icon.png"> Contact Us</a></li>
+						<li><a href="profile.html"><img src="images/user-icon.png"> Profile</a>
+							<ul>
+								<li><a href="notification.html">Notification</a></li>
+								<li><a href="profile-password.html">Password</a></li>
+								<li><a href="login.html">Logout</a></li>
+							</ul>
+						</li>
+						<li><a class="btn" href="create-task.html">Create Task</a></li>
+						<li><a class="btn btn-white" href="view-task.html">View Task</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-small">
+		<div class="container wd100">
+			<h2>Edit Task</h2>
+			
+				<input type="text" placeholder="Lorem Ipsum is dummy Task">
+				<textarea placeholder="Lorem Ipsum is dummy Task">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</textarea>
+				<div>
+					<p><strong>Please Upload your attachments</strong></p>
+					<input class="btn btn-grey" type="submit" value="Choose File"> No file chosen
+				</div>
+				<input type="date" placeholder="Due Date">
+				<a class="btn normal-btn" href="assign-to.html">Assign to</a>
+			
+			<button class="btn btn-red sh-btn" href="#" onclick="show('popup')">Delete</button>
+		</div>
+	</div>
+	
+	<div class="footer-bc wd100">
+		<div class="wrapper">
+			<div class="footer wd100">
+				<p>Copyright ©  2023 TM. All rights reserved. Terms & Condition  |  Privacy Policy</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Delete Popup -->
+	<div class="popup" id="popup">
+		<div>
+			<div class="head-popup">
+				<span><img src="images/cross.png"></span>
+				<h2>Delete</h2>
+			</div>
+			<div class="content-popup">
+			<p>Are you sure you want to remove this task.</p>
+			<a class="btn" href="#" onclick="hide('popup')">Delete</a>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+
+</html>
