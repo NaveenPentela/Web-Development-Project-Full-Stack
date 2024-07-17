@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p{
+    border: solid black 3px;
+}
+
+h1{
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-width: 5px;
+}
+
+#borders {
+    border-radius: 10px ;
+    border-color: pink;
+    border-width: 10px;
+}
+
+#padding {
+
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#margins {
+
+    margin-top: 10px;
+    margin-left: 20px;
+}

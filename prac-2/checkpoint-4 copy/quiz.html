@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tharun" />
+    <meta name="description" content="Practical 2" />
+    <title>Practical 2</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="scripts/provided-script.js" defer></script>
+    <script src="scripts/my-script.js" defer></script>
+  </head>
+  <body>
+    <div class="white-area">
+      <h1>Hello, <b id="player-name">Player</b>. Let's begin.</h1> 
+      <div id="results">
+        <p id="results-comment">Your final score was</p>
+      </div>
+
+      <div id="quiz">
+        <p class="orange-bold">Question <span id="question-N">N</span></p>
+        <p><b id="question">Question text should appear here</b></p>
+        <div class="input-field">
+          <input type="radio" name="choices" id="A" value="A" />
+          <label for="A" id="choice-A">choice-A</label>
+        </div>
+        <div class="input-field">
+          <input type="radio" name="choices" id="B" value="B" />
+          <label for="B" id="choice-B">choice-B</label>
+        </div>
+        <div class="input-field">
+          <input type="radio" name="choices" id="C" value="C" />
+          <label for="C" id="choice-C">choice-C</label>
+        </div>
+      </div>
+
+      <input id="btn-n" type="button" value="Next" class="orange-button" /> <!--onclick=""-->
+    </div>
+  </body>
+</html>
