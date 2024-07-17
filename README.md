@@ -1,6 +1,8 @@
 # Web-Development-Project-Full-Stack
 COMP2030/COMP9030 Human Factors for Interactive and Web-Based Systems
 
+All Rights Reserved.
+
 # Group Task List Manager (GTLM)
 Software Specification
 Below is an intentionally brief overview of a software system. You are to review the content and determine how best to design a prototype system. You will need to design, prototype and demonstrate your solutions in four cycles across the semester. Each demonstration will be an opportunity for feedback from the client. You will have opportunities throughout the semester for clarification of system functions and user groups. You should expand on the
